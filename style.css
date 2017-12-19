@@ -1,3 +1,145 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
 body{
     background-color: black;
+}
+h1{
+    color: white;
+    line-height: 1.2;
+    font-size: 54px;
+}
+#container-text{
+    text-align: left;
+    padding: 50px 0 0 30px;
+}
+#mainphoto{
+    background: url("img/mainphoto.JPG") 0px -100px;
+    height: 700px;
+}
+.photogallery{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.postcard {
+    float: left;
+    width: 480px;
+    margin: 10px;
+}
+#footer{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    
+}
+#socials{
+    width:100%;
+    height: 155px;
+	text-align: center;
+	background-color: #141313;
+}
+#socialdivs{
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#yt{
+    width: 245px;
+    height: 155px;
+    float:left;
+ 
+}
+#tw{
+    width: 245px;
+    height: 155px;
+    float:left;
+}
+#fb{
+    width: 245px;
+    height: 155px;
+    float:left;
+}
+#ins{
+    width: 245px;
+    height: 155px;
+    float:left;
+}
+
+#yt:hover
+{
+	background-color:#d94348;
+}
+
+#fb:hover
+{
+	background-color:#4668b3;
+}
+
+#tw:hover
+{
+	background-color:#3095d3;
+}
+
+#ins:hover
+{
+	background-color:#d95333;
+}
+.photo1 {
+    width: 480px;
+    height: 360px;
+    overflow: hidden;
+    border-radius: 25px 25px 25px 25px;
+    -moz-border-radius: 25px 25px 25px 25px;
+    -webkit-border-radius: 25px 25px 25px 25px;
+    border: 0px solid #000000;
+}
+.photo1 img
+{
+	transition: all 0.9s ease-in-out;
+}
+
+.photo1:hover img
+{
+	-webkit-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	transform: scale(1.15);
+}
+.postcard p
+{
+    font-size: 22px;
+    text-align: center;
+    color: white;
+	padding: 5px;
+	margin-top: 10px;
 }
